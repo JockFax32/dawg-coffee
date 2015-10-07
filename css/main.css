@@ -1,1 +1,22 @@
-/* Your stylesheet goes here */
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+
+body{
+	font-family: Lato; /* Need to update different fonts based on browser */
+	font-size: 16; /* Update fonts on size */
+	font-weight: 300; 
+	background-color:#E9EAEE; 
+}
+
+@media screen and (min-width: <=768px){
+	body{
+
+	}
+}
+
+h2{
+	color:#BC6026;
+}
