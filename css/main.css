@@ -6,21 +6,29 @@
 
 body{
 	font-family: Lato; /* Need to update different fonts based on browser */
-	font-size: 16; 
-	font-weight: 300; 
+	font-size: 16px; 
+	font-weight: 300px; 
 	background-color:#E9EAEE; 
 }
 h2{
 	color:#BC6026;
 }
-svg{
-	height:16;
+.svg{
+	height:16px;
 }
-#navbar-header{
-	navbar-fixed-top;
-	background-color: #181C22
+.navbar{
+	background-color: #181C22;
 	color:white;
+}
 
+#navbar-icon{
+	margin-left: 15px;
+}
+.navbar-collapse{
+	display: inline;
+}
+.navbar-header{
+	display: inline;
 }
 
 @media screen and (min-width:768px){
@@ -31,13 +39,11 @@ svg{
 		text-align: center;
 		/* include padding equal to height of the current font */
 	}
-	svg{
-		height: 20;
+	.svg{
+		height: 20px;
 	}
-	#navbar-header{
-		background-color: black;
-		color: white
-
+	.navbar{
+		background-color: rgba(24, 28, 34, 0.8);
 	}
 }
 
