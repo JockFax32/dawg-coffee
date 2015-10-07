@@ -6,17 +6,38 @@
 
 body{
 	font-family: Lato; /* Need to update different fonts based on browser */
-	font-size: 16; /* Update fonts on size */
+	font-size: 16; 
 	font-weight: 300; 
 	background-color:#E9EAEE; 
 }
+h2{
+	color:#BC6026;
+}
+svg{
+	height:16;
+}
+#navbar-header{
+	navbar-fixed-top;
+	background-color: #181C22
+	color:white;
 
-@media screen and (min-width: <=768px){
+}
+
+@media screen and (min-width:768px){
 	body{
+		font-size: 20;
+	}
+	h2{
+		text-align: center;
+		/* include padding equal to height of the current font */
+	}
+	svg{
+		height: 20;
+	}
+	#navbar-header{
+		background-color: black;
+		color: white
 
 	}
 }
 
-h2{
-	color:#BC6026;
-}
