@@ -18,15 +18,27 @@ h2{
 }
 .navbar{
 	background-color: #181C22;
-	color:white;
+/*	color:white;*/
 }
-
 #navbar-icon{
 	margin-left: 15px;
 }
-.navbar-header{
+#navbar-options{
 	display: inline;
+	padding-left: 0.5em; 
+	font-variant: small-caps;
+	list-style: none;
 }
+ul#navbar-options a{
+	display: inline;
+	color: white;
+}
+
+ul#navbar-options a:hover{
+	color: #D87E28;
+	text-decoration: none;
+}
+
 
 @media screen and (min-width:768px){
 	body{
@@ -41,6 +53,9 @@ h2{
 	}
 	.navbar{
 		background-color: rgba(24, 28, 34, 0.8);
+	}
+	#navbar-text{
+		padding-left: 1em;
 	}
 }
 
