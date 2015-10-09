@@ -16,19 +16,24 @@ h2{
 .svg{
 	height:16px;
 }
+
 .navbar{
 	background-color: #181C22;
-}
-#navbar-icon{
-	margin-left: 15px;
-}
-#navbar-options{
-	display: inline;
-	padding-left: 0.5em; 
-	font-variant: small-caps;
-	list-style: none;
+	min-height: 30px;
 
 }
+#navbar-options .svg a{
+	margin-left: 15px;
+	fill:current color;
+
+}
+#navbar-options>li{
+	display: inline;
+	padding: 0.5em;
+	font-variant: small-caps;
+	list-style: none;
+}
+
 ul#navbar-options a{
 	color: white;
 }
@@ -41,7 +46,7 @@ ul#navbar-options a:hover{
 
 @media screen and (min-width:768px){
 	body{
-		font-size: 20;
+		font-size:20;
 	}
 	h2{
 		text-align: center;
@@ -52,9 +57,12 @@ ul#navbar-options a:hover{
 	}
 	.navbar{
 		background-color: rgba(24, 28, 34, 0.8);
+
 	}
-	#navbar-text{
+	#navbar-options > li{
 		padding-left: 1em;
+		padding-right: 1em;
+		font-size:20;
 	}
 }
 
