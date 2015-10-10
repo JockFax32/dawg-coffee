@@ -16,16 +16,9 @@ h2{
 .svg{
 	height:16px;
 }
-
 .navbar{
 	background-color: #181C22;
 	min-height: 30px;
-
-}
-#navbar-options .svg a{
-	margin-left: 15px;
-	fill:current color;
-
 }
 #navbar-options>li{
 	display: inline;
@@ -33,15 +26,28 @@ h2{
 	font-variant: small-caps;
 	list-style: none;
 }
-
 ul#navbar-options a{
 	color: white;
 }
-
 ul#navbar-options a:hover{
 	color: #D87E28;
 	text-decoration: none;
 }
+#header-area p{
+	visibility: hidden;
+}
+#headline-icon{
+	visibility: hidden;
+}
+#headline-selection{
+	font-style: italic;
+	text-align: left;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+
+
 
 
 @media screen and (min-width:768px){
@@ -52,17 +58,45 @@ ul#navbar-options a:hover{
 		text-align: center;
 		/* include padding equal to height of the current font */
 	}
-	.svg{
-		height: 20px;
-	}
 	.navbar{
 		background-color: rgba(24, 28, 34, 0.8);
-
 	}
 	#navbar-options > li{
 		padding-left: 1em;
 		padding-right: 1em;
 		font-size:20;
 	}
+	.svg{
+		height: 20px;
+	}
+	#header-area p{
+		visibility: visible;
+	}
+	#header-area{
+		text-align: right;
+		color: white;
+	}
+	#headline-selection{
+		text-align: center;
+		font-size: 1.25em;
+	}
+	#headline-icon{
+		height: 1.5em;
+		margin-bottom: 1em;
+		visibility: visible;
+	}
+
+
+
+
 }
+@media screen and (min-width:992px){
+	body{
+
+	}
+}
+@media screen and (min-width:1200px){
+}
+
+
 
