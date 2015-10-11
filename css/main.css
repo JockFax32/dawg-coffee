@@ -13,8 +13,7 @@ body{
 h2{
 	color:#BC6026;
 }
-
-.svg{
+.svg {
 	height:16px;
 }
 .navbar{
@@ -34,6 +33,9 @@ h2{
 	color: #D87E28;
 	text-decoration: none;
 }
+#header{
+	padding-top: 3em;
+}
 #header p{
 	visibility: hidden;
 }
@@ -46,7 +48,6 @@ h2{
 #headline-icon{
 	visibility: hidden;
 }
-
 #cafe-info{
 	background-color: #DBDCE3;
 	text-align: center;
@@ -74,6 +75,15 @@ h2{
 	float: right;
 	border-radius: 5px;
 }
+#footer{
+	border-top: 3px;
+	background: #afb3c2;
+	border-top-style: solid;
+	border-top-color: #D87E28;
+	font-size: 12px;
+	clear: right;
+
+}
 @media screen and (min-width:768px){
 	body{
 		font-size:20;
@@ -97,6 +107,9 @@ h2{
 	#header{
 		text-align: right;
 		color: white;
+		background-image: url('../img/background-sm.jpg');
+		min-height: 550px;
+		background-repeat: no-repeat;	
 	}
 	#header p{
 		visibility: visible;
@@ -110,12 +123,23 @@ h2{
 		margin-bottom: 1em;
 		visibility: visible;
 	}
-
-
 	#story img{
 		max-height: 400px;
 	}
+	#footer .col-sm-9{
+		text-align: right;
+	}
 }
 @media screen and (min-width:992px){
-
+	#header{
+		background-image: url('../img/background-md.jpg');
+	}
+	#header h1{
+		font-size: 4em;
+	}
+}
+@media screen and (min-width:1200px){
+		#header{
+		background-image: url('../img/background-lg.jpg');
+	}
 }
