@@ -9,37 +9,100 @@
 	<link rel="icon" href="img/page-icon.png">
 	<link rel="stylesheet"  href="css/main.css">
 
-	<nav class="navbar navbar-default">
- <!--    <div class="container"> -->
-        <!-- Header for mobile -->
-        <div class="navbar-header">
-            <ul id ="navbar-options">
-                <li><a href=""><img class=svg id="navbar-icon" src="svg/brand.svg"></a></li>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <ul id ="navbar-options"><!-- style ="margins-left:15px"> -->
+                <li><a href="header-area"><img class=svg id="navbar-icon" src="svg/brand.svg"></a></li>
                 <li ><a href="">Cafe</a></li>
-                <li><a href="">Menu</a></li>
-                <li><a href="">Story</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#story">Story</a></li>
                 <li><a href="">Order</a></li>   
             </ul>
         </div>
-        <!-- Screen navigation elements -->
-<!--         <div id="navbar" class="navbar-collapse collapse">
+    </nav>
 
-        </div>
-
-        </div>  -->
-    </div>
-</nav>
-</head>
-<body>
-    <div class="container">
-    	<div class="container" id="header-area">
+    <div class="container-fluid" id="header">
         <h1>Dawg Coffee</h1>
-        <p>Caffeinating Sleepy Huskies Since 2015</p>
-    </div> 
-    <div class="container" id="headline-selection">
-        <img class=svg id="headline-icon" src="svg/brand.svg">   
-        <p>Exquisite drinks made from fair-trade coffee, servered in a relaxing and studious environment</p>
-    </div> 
+        <div class="row">
+            <div class="col-sm-12">
+                <p>Caffeinating Sleepy Huskies Since 2015</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid" id="headline">
+        <div class="container" id="headline-selection">
+            <div class="row">
+                <div class="col-sm-12">
+                    <img class=svg id="headline-icon" src="svg/brand.svg"> 
+                </div>
+             </div>     
+            <p>Exquisite drinks made from fair-trade coffee, servered in a relaxing and studious environment</p>
+        </div> 
+    </div>
+    
+    <div class="container-fluid" id="cafe-info">
+        <div class="row">
+             <div class="col-md-4">     
+                <p><img class=svg src="svg/hours.svg"></p>
+                <p> Mon&ndash;Fri: 7am&ndash;7pm </p>
+                <p>Sat&ndash;Sun: 7am&ndash;7pm</p>
+             </div>
+            <div class="col-md-4">
+                <p><img class=svg src="svg/location.svg"></p>
+                <p><a href="https://www.google.com/maps/place/4214+University+Way+NE,+Seattle,+WA+98105" target="_blank"><img src=img/map.png></a></p>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <p><img class=svg src="svg/contact.svg"></p>
+                    <p><i class="fa fa-envelope";></i> <a href="mailto:dawgcoffee@gmail.com">dawgcoffee@gmail.com</a></p>
+                    <p><i class="fa fa-phone"></i> <a href="tel:+1-206-555-1212">206-555-1212</a></p>
+                    <p><i class="fa fa-twitter"></i> <a href="https://twitter.com/dawgcoffee">@dawgcoffee</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="menu">
+        <h2>Menu</h2>
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Drinks</h3>
+                    <h4>Espresso</h4>
+                        <h5>dark and rich, pulled with care</h5>
+                    <h4>Latte</h4>
+                        <h5>milky and sweet, with various syrups and toppings</h5>
+                    <h4>Mocha</h4>
+                        <h5>chocolate, milk, and espresso, what could be better?</h5>              
+            </div>
+            <div class="col-sm-6">
+                <h3>Treats</h3>
+                    <h4>Muffins &amp; Scones</h4>
+                        <h5>banana, bluebery, chocolate, and pumpkin</h5>
+                    <h4>Cookies</h4>
+                        <h5>chocolate chunk, peanut butter, oatmeal</h5>
+                    <h4>Breads</h4>
+                        <h5>zucchini, banana, lemon, ginger</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="story">
+        <h2>Our Story</h2>
+        <img src="img/story.jpg">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis massa ac gravida fermentum. Maecenas sagittis justo sit amet erat hendrerit finibus. Praesent quis elit sit amet sapien commodo tempor id id lacus. Donec auctor urna sit amet libero dapibus facilisis. Proin ultrices fermentum luctus. Nullam porta eu ex a pharetra. Aenean sem neque, ullamcorper at placerat id, convallis sodales massa. Ut ex magna, finibus ac ornare eget, viverra in augue. Nullam sed aliquam turpis. Vivamus bibendum ante quis mauris mollis, ac suscipit justo euismod. Integer accumsan augue sollicitudin, malesuada quam ac, ultrices nulla. Aliquam dignissim aliquam neque, ultricies eleifend velit ullamcorper molestie.</p>
+
+        <p>Aliquam a magna lectus. Phasellus sit amet lectus eu ex maximus molestie. Sed quis metus a turpis hendrerit imperdiet. Vivamus at elit nec massa egestas varius. Nullam dictum a leo in dictum. Etiam interdum suscipit rhoncus. Suspendisse malesuada ac orci sit amet ullamcorper. Donec auctor volutpat lobortis. Nam eu ante mollis, euismod neque id, viverra elit. Morbi vestibulum libero erat, at venenatis libero porttitor id. Proin eget lectus pharetra, condimentum ipsum a, gravida eros. Proin odio ipsum, molestie in iaculis eget, aliquet et dolor. Donec sed elementum tortor. Aliquam arcu mauris, accumsan eu imperdiet eget, molestie ut lacus. Proin et scelerisque tortor.</p>
+        
+        <p>Cras commodo tincidunt fringilla. Nunc scelerisque vitae dui eget fringilla. Suspendisse lacinia libero quis ultricies pellentesque. Cras hendrerit ipsum orci, eget hendrerit ligula convallis quis. Nam id ex velit. Cras sapien quam, rhoncus nec egestas vel, facilisis sed lorem. Suspendisse potenti. Donec cursus diam sed odio venenatis dictum. Donec eleifend eleifend enim in imperdiet. Vestibulum consequat accumsan ligula, at finibus nunc eleifend vitae. Aenean nisi turpis, fringilla non vestibulum ut, tempus et nibh. Aenean rutrum euismod consequat. Fusce viverra posuere ante, et venenatis lorem posuere et. </p>
+
+        
+
+    </div>
+
+
 
 
 </body>

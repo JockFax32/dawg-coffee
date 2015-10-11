@@ -13,6 +13,7 @@ body{
 h2{
 	color:#BC6026;
 }
+
 .svg{
 	height:16px;
 }
@@ -20,36 +21,59 @@ h2{
 	background-color: #181C22;
 	min-height: 30px;
 }
-#navbar-options>li{
+#navbar-options li{
 	display: inline;
 	padding: 0.5em;
 	font-variant: small-caps;
 	list-style: none;
 }
-ul#navbar-options a{
+#navbar-options a{
 	color: white;
 }
-ul#navbar-options a:hover{
+#navbar-options a:hover{
 	color: #D87E28;
 	text-decoration: none;
 }
-#header-area p{
+#header p{
 	visibility: hidden;
 }
-#headline-icon{
-	visibility: hidden;
-}
-#headline-selection{
+#headline{
 	font-style: italic;
 	text-align: left;
 	margin-top: 3em;
 	margin-bottom: 3em;
 }
+#headline-icon{
+	visibility: hidden;
+}
 
-
-
-
-
+#cafe-info{
+	background-color: #DBDCE3;
+	text-align: center;
+	content: center;
+}
+#cafe-info img{
+	border-radius: 5px;
+}
+#menu h3{
+	padding-bottom: 10px;
+}
+#menu h4{
+	font-weight: bold;
+}
+#menu h5{
+	padding-left: 1em;
+	font-style: italic; /*Visual speration of list items for mobile*/
+}
+#story{
+	background-color: #DBDCE3;
+}
+#story img{
+	max-height: 300px;
+	margin-left: 1em;
+	float: right;
+	border-radius: 5px;
+}
 @media screen and (min-width:768px){
 	body{
 		font-size:20;
@@ -58,25 +82,26 @@ ul#navbar-options a:hover{
 		text-align: center;
 		/* include padding equal to height of the current font */
 	}
+	.svg{
+		height: 20px;
+	}
 	.navbar{
 		background-color: rgba(24, 28, 34, 0.8);
+
 	}
 	#navbar-options > li{
 		padding-left: 1em;
 		padding-right: 1em;
 		font-size:20;
 	}
-	.svg{
-		height: 20px;
-	}
-	#header-area p{
-		visibility: visible;
-	}
-	#header-area{
+	#header{
 		text-align: right;
 		color: white;
 	}
-	#headline-selection{
+	#header p{
+		visibility: visible;
+	}
+	#headline{
 		text-align: center;
 		font-size: 1.25em;
 	}
@@ -87,16 +112,10 @@ ul#navbar-options a:hover{
 	}
 
 
-
-
-}
-@media screen and (min-width:992px){
-	body{
-
+	#story img{
+		max-height: 400px;
 	}
 }
-@media screen and (min-width:1200px){
+@media screen and (min-width:992px){
+
 }
-
-
-
