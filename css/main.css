@@ -5,16 +5,24 @@
 
 
 body{
-	font-family: Lato; /* Need to update different fonts based on browser */
+	font-family: Lato; 
 	font-size: 16px; 
 	font-weight: 300px; 
 	background-color:#E9EAEE; 
 }
+h1,h2,h3,h4,h5,{
+	font-family: Raleway;
+}
 h2{
 	color:#BC6026;
 }
-.svg {
+.svg-icons {
 	height:16px;
+	fill:currentColor;
+	display: inline;
+}
+#contact-info{
+	fill: #BC6026;
 }
 .navbar{
 	background-color: #181C22;
@@ -33,6 +41,7 @@ h2{
 	color: #D87E28;
 	text-decoration: none;
 }
+
 #header{
 	padding-top: 3em;
 }
@@ -45,7 +54,7 @@ h2{
 	margin-top: 3em;
 	margin-bottom: 3em;
 }
-#headline-icon{
+#headline-selection svg{
 	visibility: hidden;
 }
 #cafe-info{
@@ -55,6 +64,7 @@ h2{
 }
 #cafe-info img{
 	border-radius: 5px;
+	fill:#D87E28;
 }
 #menu h3{
 	padding-bottom: 10px;
@@ -82,17 +92,17 @@ h2{
 	border-top-color: #D87E28;
 	font-size: 12px;
 	clear: right;
-
 }
+/*Change layout for non-mobile browsers*/
 @media screen and (min-width:768px){
 	body{
 		font-size:20;
 	}
 	h2{
 		text-align: center;
-		/* include padding equal to height of the current font */
+		padding-bottom: 1em;
 	}
-	.svg{
+	.svg-icons{
 		height: 20px;
 	}
 	.navbar{
@@ -118,7 +128,7 @@ h2{
 		text-align: center;
 		font-size: 1.25em;
 	}
-	#headline-icon{
+	#headline-selection svg{
 		height: 1.5em;
 		margin-bottom: 1em;
 		visibility: visible;
@@ -141,5 +151,6 @@ h2{
 @media screen and (min-width:1200px){
 		#header{
 		background-image: url('../img/background-lg.jpg');
+		content: middle;
 	}
 }
